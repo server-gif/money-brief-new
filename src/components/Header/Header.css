@@ -1,0 +1,208 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  /* The bar itself is full-bleed; only its content is centred. */
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.35s ease,
+    border-color 0.35s ease;
+}
+
+/* Gradient accent line, edge to edge across the viewport */
+.header::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--color-brand), var(--color-accent), var(--color-brand));
+  opacity: 0.7;
+}
+
+/* Scrolling down: bar slides up out of view; scrolling back up reveals it. */
+.header--hidden {
+  transform: translateY(-100%);
+  pointer-events: none;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--header-h);
+  max-width: calc(var(--container) + var(--gutter) * 2);
+  margin-inline: auto;
+  padding-inline: clamp(16px, 3vw, 32px);
+}
+
+.header__logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__mark {
+  display: block;
+  width: 36px;
+  height: 36px;
+  filter: drop-shadow(0 2px 5px rgba(180, 83, 9, 0.25));
+}
+
+.header__name {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--color-ink);
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.header__name span {
+  color: var(--color-brand);
+}
+
+.header__controls {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: auto;
+}
+
+/* Theme toggle — circle icon button */
+.header__theme {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--color-border);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--color-muted);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
+}
+
+.header__theme:hover {
+  color: var(--color-brand);
+  border-color: var(--color-brand);
+  background: var(--color-brand-soft);
+  transform: rotate(20deg) scale(1.08);
+}
+
+.header__theme:active {
+  transform: scale(0.94);
+}
+
+.header__toggle {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  margin-right: -8px;
+  border: 0;
+  border-radius: var(--radius-md);
+  background: transparent;
+  color: var(--color-ink);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.header__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header__link {
+  display: block;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--color-body);
+  transition: color 0.15s ease;
+}
+
+.header__link:hover,
+.header__link.is-active {
+  color: var(--color-brand);
+}
+
+/* Mobile: dropdown panel below the bar */
+@media (max-width: 959px) {
+  .header__nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--color-surface);
+    border-bottom: 3px solid var(--color-brand);
+    box-shadow: var(--shadow-md);
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-6px);
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+    max-height: calc(100dvh - var(--header-h));
+    overflow-y: auto;
+  }
+
+  .header--open .header__nav {
+    visibility: visible;
+    opacity: 1;
+    transform: none;
+  }
+
+  .header__list {
+    padding: 12px var(--gutter) 20px;
+  }
+
+  .header__link {
+    padding: 14px 0;
+    border-bottom: 1px solid var(--color-border);
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .header__list li:last-child .header__link {
+    border-bottom: 0;
+  }
+}
+
+/* Desktop: inline nav with bold-weight active state */
+@media (min-width: 960px) {
+  .header__toggle {
+    display: none;
+  }
+
+  .header__nav {
+    margin-left: auto;
+  }
+
+  .header__controls {
+    margin-left: 24px;
+  }
+
+  .header__list {
+    display: flex;
+    gap: 6px;
+  }
+
+  .header__link {
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: color 0.15s ease, background 0.15s ease;
+  }
+
+  .header__link:hover {
+    color: var(--color-brand);
+    background: var(--color-brand-soft);
+  }
+
+  .header__link.is-active {
+    color: var(--color-brand);
+    background: var(--color-brand-soft);
+    font-weight: 700;
+  }
+}

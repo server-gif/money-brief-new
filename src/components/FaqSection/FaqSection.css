@@ -1,0 +1,134 @@
+/* ==========================================================
+   FAQ SECTION
+   Quiet and standard: a centred intro above a single column of
+   question rows separated by hairlines. No boxes, no numbers,
+   no colour bars — the type and the spacing carry the section.
+   Styled entirely from CSS, the JSX markup is untouched.
+   ========================================================== */
+/* .page-section also sets padding-block, so the section class is doubled up
+   to win on specificity rather than on source order. */
+.faq-section.page-section {
+  padding-block: clamp(56px, 8vw, 92px);
+}
+
+.faq-section .container {
+  max-width: 840px;
+}
+
+/* ---------- Intro ---------- */
+.faq-section__header {
+  max-width: 620px;
+  margin: 0 auto 36px;
+  text-align: center;
+}
+
+.faq-section__title {
+  margin-top: 8px;
+  font-size: clamp(1.55rem, 1.25rem + 1.2vw, 2.1rem);
+  letter-spacing: -0.02em;
+}
+
+.faq-section__description {
+  margin: 12px auto 0;
+  max-width: 52ch;
+  line-height: 1.7;
+  color: var(--color-body);
+}
+
+/* ---------- Question rows ---------- */
+.faq-section__list {
+  display: grid;
+  gap: 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.faq-item {
+  border-bottom: 1px solid var(--color-border);
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* --- question row --- */
+.faq-item__question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 22px 4px;
+  color: var(--color-ink);
+  font-family: var(--font-serif);
+  font-size: 1.0625rem;
+  font-weight: 600;
+  line-height: 1.45;
+  cursor: pointer;
+  list-style: none; /* hide default disclosure triangle */
+  transition: color 0.2s ease;
+}
+
+.faq-item__question::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item__question:hover {
+  color: var(--color-brand);
+}
+
+.faq-item__question:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: -2px;
+}
+
+/* Plain plus glyph — no disc behind it */
+.faq-item__icon {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 22px;
+  height: 22px;
+  color: var(--color-muted);
+  transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1), color 0.2s ease;
+}
+
+.faq-item__icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Plus becomes a minus by rotating 45° when open */
+.faq-item[open] .faq-item__icon {
+  color: var(--color-brand);
+  transform: rotate(45deg);
+}
+
+/* --- answer body --- */
+.faq-item__answer {
+  padding: 0 4px 24px;
+  color: var(--color-body);
+}
+
+.faq-item__answer p {
+  margin: 0;
+  max-width: 68ch;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+@media (max-width: 640px) {
+  .faq-item__question {
+    gap: 14px;
+    padding: 18px 2px;
+    font-size: 1rem;
+  }
+
+  .faq-item__answer {
+    padding: 0 2px 18px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .faq-item__question,
+  .faq-item__icon {
+    transition: none;
+  }
+}
