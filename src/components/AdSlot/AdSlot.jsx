@@ -9,7 +9,7 @@ import './AdSlot.css';
  *
  * Space is reserved up front (no layout shift) while the ad request is in
  * flight. If no ad ever fills (empty/error/timeout) the ad frame is removed
- * but the "Advertisement" label stays visible.
+ * but the "Advertisement" label always stays visible.
  */
 export default function AdSlot({ placement = 'content', refreshKey, className = '' }) {
   const config = AD_CONFIG.slots[placement];

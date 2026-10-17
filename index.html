@@ -105,41 +105,32 @@
   </head>
   <body>
     <div id="app-splash" aria-hidden="true">
-        <svg class="app-splash__mark" viewBox="0 0 512 512" aria-hidden="true">
-          <defs>
-            <linearGradient id="fvSplashLogoBg" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0" stop-color="#134E3A"/>
-              <stop offset="0.55" stop-color="#0B3527"/>
-              <stop offset="1" stop-color="#061E17"/>
-            </linearGradient>
-            <radialGradient id="fvSplashLogoGlow" cx="0.32" cy="0.26" r="0.8">
-              <stop offset="0" stop-color="#3BEFA0" stop-opacity="0.32"/>
-              <stop offset="1" stop-color="#3BEFA0" stop-opacity="0"/>
-            </radialGradient>
-            <linearGradient id="fvSplashLogoBar" gradientUnits="userSpaceOnUse" x1="256" y1="392" x2="256" y2="212">
-              <stop offset="0" stop-color="#0A7A54"/>
-              <stop offset="0.5" stop-color="#17BC79"/>
-              <stop offset="1" stop-color="#FBBF24"/>
-            </linearGradient>
-            <linearGradient id="fvSplashLogoArrow" gradientUnits="userSpaceOnUse" x1="150" y1="268" x2="384" y2="158">
-              <stop offset="0" stop-color="#A7F3D0"/>
-              <stop offset="1" stop-color="#FDE68A"/>
-            </linearGradient>
-            <filter id="fvSplashLogoShadow" x="-20%" y="-20%" width="140%" height="150%">
-              <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#04150F" flood-opacity="0.5"/>
-            </filter>
-          </defs>
-          <rect x="28" y="28" width="456" height="456" rx="112" fill="url(#fvSplashLogoBg)"/>
-          <rect x="28" y="28" width="456" height="456" rx="112" fill="url(#fvSplashLogoGlow)"/>
-          <g filter="url(#fvSplashLogoShadow)">
-            <rect x="140" y="320" width="56" height="72" rx="18" fill="url(#fvSplashLogoBar)"/>
-            <rect x="228" y="268" width="56" height="124" rx="18" fill="url(#fvSplashLogoBar)"/>
-            <rect x="316" y="216" width="56" height="176" rx="18" fill="url(#fvSplashLogoBar)"/>
-            <path d="M150 268 L344 177" fill="none" stroke="url(#fvSplashLogoArrow)" stroke-width="26" stroke-linecap="round"/>
-            <path d="M384 158 L357 204 L331 150 Z" fill="url(#fvSplashLogoArrow)"/>
+        <svg class="app-splash__mark" viewBox="0 0 512 512" fill="none" aria-hidden="true">
+          <g clip-path="url(#fvSplashLogoClip)">
+            <rect x="28" y="28" width="456" height="456" rx="76" fill="#FCF2E4"/>
+            <path d="M301 425C356 330.5 448 298 484 298V425H301Z" fill="#FBE7D1"/>
+            <path d="M485 354C342.6 366.4 273 442.5 243 485H485V354Z" fill="#F7DABC"/>
+            <g opacity="0.4">
+              <path d="M211 87C156 181.5 64 214 28 214V87H211Z" fill="#FBE7D1"/>
+              <path d="M27 158C169.4 145.6 239 69.5 269 27H27V158Z" fill="#F7DABC"/>
+            </g>
+            <path d="M142.299 288.06V279.696C96.2607 323.663 122.983 355.564 142.299 368.109V359.347C111.076 332.744 129.289 300.737 142.299 288.06Z" fill="#D96D20"/>
+            <path d="M192.877 377.667H200.045H220.755C220.755 381.171 221.286 383.906 221.551 384.835C210.241 384.835 197.722 384.304 192.877 384.039V377.667Z" fill="#D96D20"/>
+            <path d="M312.751 344.213C287.582 362.533 262.704 370.697 253.411 372.489C254.367 374.878 254.606 378.795 254.606 380.454C283.918 372.17 308.835 357.222 317.729 350.983C314.543 347.638 313.149 345.209 312.751 344.213Z" fill="#D96D20"/>
+            <path d="M343.417 317.53C346.921 320.238 348.594 322.641 348.992 323.504C365.082 306.777 376.671 284.409 380.454 275.315H369.303C361.975 294.75 348.992 311.556 343.417 317.53Z" fill="#D96D20"/>
+            <circle cx="380.852" cy="253.013" r="25.8865" fill="#D96D20"/>
+            <path d="M235.888 167.787L298.016 102.473H407.636C411.884 102.473 414.324 107.306 411.802 110.724L383.55 149.017C374.841 160.82 361.044 167.787 346.375 167.787H235.888Z" fill="#D96D20"/>
+            <path d="M223.941 167.787H235.888L298.016 102.473H224.339C203.948 104.225 187.293 113.956 181.514 118.602C155.219 137.241 147.335 166.592 146.679 178.938V409.128C149.865 409.128 160.618 408.496 164.203 407.535C188.695 402.159 200.045 379.06 200.045 370.896V285.869C200.045 269.939 217.369 259.783 226.131 259.783H299.609C314.145 259.783 327.287 249.429 331.071 244.65L357.754 208.807C361.338 204.028 359.745 202.833 357.754 202.833H242.658C218.166 202.236 209.803 210.798 200.045 227.525V191.682C200.045 180.531 210.002 167.787 223.941 167.787Z" fill="#2F241C" stroke="black" stroke-width="0.398253"/>
+            <circle cx="237.481" cy="379.26" r="13.1424" fill="#D96D20"/>
+            <circle cx="331.071" cy="334.456" r="17.324" fill="#D96D20"/>
           </g>
+          <defs>
+            <clipPath id="fvSplashLogoClip">
+              <rect x="28" y="28" width="456" height="456" rx="76" fill="white"/>
+            </clipPath>
+          </defs>
         </svg>
-      <span class="app-splash__name">Fin<span>verra</span></span>
+      <span class="app-splash__name">Finzoria<span>Capital</span></span>
       <span class="app-splash__dots"><i></i><i></i><i></i></span>
     </div>
     <div id="root"></div>

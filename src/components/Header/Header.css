@@ -3,7 +3,7 @@
   top: 0;
   z-index: 100;
   /* The bar itself is full-bleed; only its content is centred. */
-  background: var(--color-surface);
+  background: #F5F5F5;
   border-bottom: 1px solid var(--color-border);
   transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.35s ease,
     border-color 0.35s ease;
@@ -25,6 +25,17 @@
 .header--hidden {
   transform: translateY(-100%);
   pointer-events: none;
+}
+
+/* Keep the dark theme surface for the bar — the flat grey is light-mode only. */
+html[data-theme='dark'] .header {
+  background: var(--color-surface);
+}
+
+@media (max-width: 959px) {
+  html[data-theme='dark'] .header__nav {
+    background: var(--color-surface);
+  }
 }
 
 .header__inner {
@@ -52,11 +63,10 @@
 
 .header__name {
   font-family: var(--font-serif);
-  font-size: 1.25rem;
+  font-size: 1.30rem;
   font-weight: 800;
   color: var(--color-ink);
   letter-spacing: -0.03em;
-  text-transform: uppercase;
 }
 
 .header__name span {
@@ -136,7 +146,7 @@
     top: 100%;
     left: 0;
     right: 0;
-    background: var(--color-surface);
+    background: #F5F5F5;
     border-bottom: 3px solid var(--color-brand);
     box-shadow: var(--shadow-md);
     visibility: hidden;

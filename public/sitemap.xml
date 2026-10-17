@@ -1,200 +1,200 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Sitemap for https://finverra.com — keep the <loc> domain in sync with VITE_SITE_URL. -->
+<!-- Sitemap for https://finzoriacapital.site — keep the <loc> domain in sync with VITE_SITE_URL. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://finverra.com/</loc>
+    <loc>https://finzoriacapital.site/</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://finverra.com/blog</loc>
+    <loc>https://finzoriacapital.site/blog</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://finverra.com/category/finance</loc>
+    <loc>https://finzoriacapital.site/category/finance</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://finverra.com/category/cloud</loc>
+    <loc>https://finzoriacapital.site/category/cloud</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://finverra.com/tools</loc>
+    <loc>https://finzoriacapital.site/tools</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://finverra.com/about</loc>
+    <loc>https://finzoriacapital.site/about</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://finverra.com/blog/how-to-build-an-emergency-fund</loc>
+    <loc>https://finzoriacapital.site/blog/how-to-build-an-emergency-fund</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://finverra.com/blog/beginners-guide-to-investing</loc>
+    <loc>https://finzoriacapital.site/blog/beginners-guide-to-investing</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://finverra.com/blog/how-compound-interest-works</loc>
+    <loc>https://finzoriacapital.site/blog/how-compound-interest-works</loc>
     <lastmod>2026-10-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://finverra.com/blog/smart-ways-to-save-money</loc>
+    <loc>https://finzoriacapital.site/blog/smart-ways-to-save-money</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://finverra.com/blog/understanding-mutual-funds</loc>
+    <loc>https://finzoriacapital.site/blog/understanding-mutual-funds</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://finverra.com/blog/what-is-a-credit-score</loc>
+    <loc>https://finzoriacapital.site/blog/what-is-a-credit-score</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://finverra.com/blog/how-to-create-a-monthly-budget</loc>
+    <loc>https://finzoriacapital.site/blog/how-to-create-a-monthly-budget</loc>
     <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://finverra.com/blog/stock-market-basics-for-beginners</loc>
+    <loc>https://finzoriacapital.site/blog/stock-market-basics-for-beginners</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://finverra.com/blog/how-inflation-affects-your-money</loc>
+    <loc>https://finzoriacapital.site/blog/how-inflation-affects-your-money</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://finverra.com/blog/financial-planning-for-young-adults</loc>
+    <loc>https://finzoriacapital.site/blog/financial-planning-for-young-adults</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://finverra.com/blog/how-to-use-credit-cards-responsibly</loc>
+    <loc>https://finzoriacapital.site/blog/how-to-use-credit-cards-responsibly</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://finverra.com/blog/understanding-loans-and-interest-rates</loc>
+    <loc>https://finzoriacapital.site/blog/understanding-loans-and-interest-rates</loc>
     <lastmod>2026-09-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://finverra.com/blog/tax-basics-everyone-should-know</loc>
+    <loc>https://finzoriacapital.site/blog/tax-basics-everyone-should-know</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://finverra.com/blog/what-is-cloud-computing</loc>
+    <loc>https://finzoriacapital.site/blog/what-is-cloud-computing</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://finverra.com/blog/public-private-and-hybrid-cloud</loc>
+    <loc>https://finzoriacapital.site/blog/public-private-and-hybrid-cloud</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://finverra.com/blog/understanding-cloud-costs</loc>
+    <loc>https://finzoriacapital.site/blog/understanding-cloud-costs</loc>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://finverra.com/blog/cloud-storage-and-backups</loc>
+    <loc>https://finzoriacapital.site/blog/cloud-storage-and-backups</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://finverra.com/blog/what-happens-to-your-financial-data-online</loc>
+    <loc>https://finzoriacapital.site/blog/what-happens-to-your-financial-data-online</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://finverra.com/blog/how-digital-banks-protect-your-data</loc>
+    <loc>https://finzoriacapital.site/blog/how-digital-banks-protect-your-data</loc>
     <lastmod>2026-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://finverra.com/blog/open-banking-and-your-money</loc>
+    <loc>https://finzoriacapital.site/blog/open-banking-and-your-money</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://finverra.com/category/crm</loc>
+    <loc>https://finzoriacapital.site/category/crm</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://finverra.com/blog/what-is-crm-software</loc>
+    <loc>https://finzoriacapital.site/blog/what-is-crm-software</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://finverra.com/blog/how-to-choose-a-crm-for-your-business</loc>
+    <loc>https://finzoriacapital.site/blog/how-to-choose-a-crm-for-your-business</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://finverra.com/blog/how-crm-helps-small-business-cash-flow</loc>
+    <loc>https://finzoriacapital.site/blog/how-crm-helps-small-business-cash-flow</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://finverra.com/blog/keeping-your-crm-data-clean</loc>
+    <loc>https://finzoriacapital.site/blog/keeping-your-crm-data-clean</loc>
     <lastmod>2026-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://finverra.com/blog/crm-automation-what-to-automate-first</loc>
+    <loc>https://finzoriacapital.site/blog/crm-automation-what-to-automate-first</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://finverra.com/blog/migrating-to-a-new-crm</loc>
+    <loc>https://finzoriacapital.site/blog/migrating-to-a-new-crm</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
